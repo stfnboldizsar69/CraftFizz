@@ -1,0 +1,68 @@
+.header {
+    background-color: black;
+    color: white;
+    padding: 22px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    text-align: left;
+  }
+  
+  .navLink {
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .nav2 {
+    display: flex;
+    width: 5vW;
+    padding-right: 35px;
+  }
+  
+  .navLink2 {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+
+  .nav_logo {
+    display: flex;
+    width: 5vw;
+    padding-left: 35px;
+  }
+
+  .navLink_logo {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+
+  .header .nav {
+    justify-content: center;
+  }
+  
+  .cart {
+    background-color: black;
+    width: 35px;
+    height: 35px;
+  }
+  
+  
