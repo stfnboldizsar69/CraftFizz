@@ -4,7 +4,7 @@ import "./AboutUsSection.css";
 const AboutUsSection = () => {
   return (
     <div className="about-us">
-      <h2>About CraftFizz</h2>
+      <h2 id="aboutus">About CraftFizz</h2>
       <p>
         CraftFizz is a pioneering company dedicated to the world of beverage
         excellence. With a relentless focus on quality and innovation, we have

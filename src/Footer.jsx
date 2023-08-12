@@ -8,7 +8,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer id = "footer" className="footer">
       <div className="social-icons">
         <a href="https://www.instagram.com/i.am.spunk">
           <FontAwesomeIcon icon={faInstagram} size="lg" />

@@ -13,9 +13,9 @@ const Header = () => {
         <a href={logoLink} className="navLink_logo"><img src="../public/logo_v2.png" alt="logo" /></a>
       </nav>
       <nav className="nav">
-        <a href={aboutUsLink} className="navLink">About Us</a>
-        <a href={shopLink} className="navLink">Shop</a>
-        <a href={socialsLink} className="navLink">Socials</a>
+        <a href={"#aboutus"} className="navLink">About Us</a>
+        <a href={"#shop"} className="navLink">Shop</a>
+        <a href={"#footer"} className="navLink">Socials</a>
       </nav>
       <nav className="nav2">
         <a href={cartLink} className="navLink2"><img className="cart" src="../public/cart-shopping-solid.png" alt="shoppingcart" /></a>

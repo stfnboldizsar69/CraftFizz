@@ -30,7 +30,7 @@ const WebshopGrid = () => {
 
   return (
     <>
-      <h2 className = "shopTitle">Shop</h2>
+      <h2 id="shop" className = "shopTitle">Shop</h2>
       <div className="webshop-grid">
         {items.map((item, index) => (
           <div className="item" key={index} style={{backgroundImage:`url(${item.src})`, backgroundSize: "cover"}}>
