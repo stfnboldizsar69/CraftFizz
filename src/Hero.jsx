@@ -9,7 +9,18 @@ function Hero({ images }) {
   };
 
   return (
-    <div className="center-container">
+    <>
+      
+      <div className="page-container">
+        {images.map((image, index) => (
+          <div
+            key={index}
+            className={`page ${currentPage === index ? 'active' : ''}`}
+          >
+            <img src={image} alt={`Page ${index + 1}`} />
+          </div>
+        ))}
+      </div>
       <div className="circle-container">
         {images.map((_, index) => (
           <div
@@ -21,17 +32,7 @@ function Hero({ images }) {
           </div>
         ))}
       </div>
-      <div className="page-container">
-        {images.map((image, index) => (
-          <div
-            key={index}
-            className={`page ${currentPage === index ? 'active' : ''}`}
-          >
-            <img src={image} alt={`Page ${index + 1}`} />
-          </div>
-        ))}
-      </div>
-    </div>
+    </>
   );
 }
 

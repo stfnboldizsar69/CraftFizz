@@ -53,6 +53,8 @@
     color: white;
     font-weight: bold;
     transition: background-color 0.3s;
+    width: 10%;
+    height: 90%;
   }
 
   .header .nav {

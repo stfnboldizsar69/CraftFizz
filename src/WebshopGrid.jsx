@@ -11,9 +11,9 @@ const WebshopGrid = () => {
     { name: "mango", price: 19.99 },
     { name: "passion fruit", price: 19.99 },
     { name: "orange", price: 19.99 },
-    { name: "citrom", price: 19.99 },
+    { name: "lemon", price: 19.99 },
     { name: "pear", price: 19.99 },
-    { name: "Apple", price: 19.99 }
+    { name: "apple", price: 19.99 }
     
   ];
 

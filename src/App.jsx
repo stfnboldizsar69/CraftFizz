@@ -2,9 +2,11 @@ import { useState } from 'react';
 import Header from './Header';
 import Hero from './Hero';
 import WebshopGrid from './WebshopGrid';
+import AboutUsSection from './AboutUsSection';
 import './WebshopGrid.css';
 import './Header.css';
 import './Hero.css';
+import './AboutUsSection.css'
 import img1 from "../public/asd.jpg";
 import img2 from "../public/pepe.jpg";
 import img3 from "../public/asd.jpg";
@@ -20,6 +22,7 @@ function App() {
     <>
       <Header></Header>
       <Hero images={images}></Hero>
+      <AboutUsSection></AboutUsSection>
       <WebshopGrid></WebshopGrid>
     </>
   )
