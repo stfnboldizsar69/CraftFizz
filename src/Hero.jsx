@@ -10,7 +10,7 @@ function Hero({ images }) {
 
   return (
     <>
-      
+
       <div className="page-container">
         {images.map((image, index) => (
           <div
@@ -21,18 +21,21 @@ function Hero({ images }) {
           </div>
         ))}
       </div>
-      <div className="circle-container">
-        {images.map((_, index) => (
-          <div
-            key={index}
-            className={`circle ${currentPage === index ? 'active' : ''}`}
-            onClick={() => handlePageClick(index)}
-          >
-            {index + 1}
-          </div>
-        ))}
+      <div className="center-container">
+        <div className="circle-container">
+          {images.map((_, index) => (
+            <div
+              key={index}
+              className={`circle ${currentPage === index ? 'active' : ''}`}
+              onClick={() => handlePageClick(index)}
+            >
+              {index + 1}
+            </div>
+          ))}
+        </div>
       </div>
     </>
+
   );
 }
 

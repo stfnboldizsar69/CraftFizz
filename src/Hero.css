@@ -6,13 +6,14 @@
   background-color: #222;
   color: #fff;
   font-family: Arial, sans-serif;
-  width: 100vw;
+
 }
 
 .circle-container {
   display: flex;
   gap: 10px;
   margin-bottom: 20px;
+  margin-top: -50px;
 }
 
 .circle {
@@ -22,13 +23,14 @@
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background-color: #444;
-  color: #fff;
+  background-color: #222222ff;
+  color: #7f00ffff;
   cursor: pointer;
 }
 
 .circle.active {
-  background-color: #f39c12;
+  color: black;
+  background-color: #7f00ffff;
 }
 
 .page-container {
@@ -36,20 +38,23 @@
   flex-direction: column;
   align-items: center;
   gap: 20px;
+  margin-top: 95px;
 }
 
 .page {
   display: none;
-  padding: 20px;
-  background-color: #333;
   border-radius: 5px;
   text-align: center;
+  width: 100vw;
 }
 
 .page.active {
-  display: flex;
+  display: block;
+  width: 100%;
 }
-
+.page.active > img {
+  width: 100vw;
+}
 .center-container {
   display: flex;
   justify-content: center;

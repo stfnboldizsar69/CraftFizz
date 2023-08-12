@@ -1,0 +1,21 @@
+.footer {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    color: #7f00ffff;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #e100ffff;
+  }
+  
